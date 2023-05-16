@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.header {
+    margin-top: 32px;
+    margin-left: 5%;
+    background: transparent;
+}
+
+.header ul {
+    list-style: none;
+    width: 44%;
+    float: right;
+    margin-top: 36px;
+}
+
+.header h2 {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.header li {
+    padding-right: 20%;
+    float: left;
+    font-size: 20px;
+}
+
+.make-logo {
+    color: tomato;
+}
+
+.hierButton {
+    text-decoration: none;
+    background: tomato;
+    padding: 8px 31px;
+    color: #010101;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.sectionContent {
+    display: flex;
+    /* float: right; */
+    width: 100%;
+}
+
+.aboutMe {
+    width: 50%;
+    margin-left: 10%;
+}
+
+
+
+.myimg img {
+
+    background-image: url('images/i.png');
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    float: right;
+
+    margin-top: 5%;
+
+    width: 550px;
+}
+
+.aboutMe h2 {
+    margin-top: 300px;
+    font-size: 40px;
+}
+
+.headSection {
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.aboutMe h1 {
+    font-size: 60px;
+    display: inline;
+}
+
+.hierButton2 {
+    text-decoration: none;
+    background: #f83715;
+    padding: 15px 83px;
+    color: #010101;
+    font-weight: 600;
+    border-radius: 9px;
+    font-size: 25px;
+    line-height: 5;
+}
