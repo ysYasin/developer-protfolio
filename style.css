@@ -50,7 +50,7 @@
 
 .aboutMe {
     width: 50%;
-    margin-left: 10%;
+    margin-left: 19%;
 }
 
 
@@ -58,20 +58,15 @@
 .myimg img {
 
     background-image: url('images/i.png');
-
     background-size: cover;
-
     background-repeat: no-repeat;
-
     float: right;
-
     margin-top: 5%;
-
     width: 550px;
 }
 
 .aboutMe h2 {
-    margin-top: 300px;
+    margin-top: 205px;
     font-size: 40px;
 }
 
@@ -82,7 +77,7 @@
 }
 
 .aboutMe h1 {
-    font-size: 60px;
+    font-size: 72px;
     display: inline;
 }
 
