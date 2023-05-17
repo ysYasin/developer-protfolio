@@ -2,13 +2,53 @@
     margin: 0;
     padding: 0%;
     font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
 
 }
 
+.cards p {
+    padding: 0px 0 10px 5px;
+}
+
+.cards h3 {
+    font-weight: 600;
+    padding: 0 0 10px 5px;
+}
+
+.cards {
+    background: #ffffff;
+    box-shadow: 5px 5px 20px gray;
+    padding: 30px;
+}
+
+.cards img {
+    text-align: left;
+    margin: 20px;
+}
+
+.skill-cards {
+    display: flex;
+    gap: 30px;
+}
+
+.abtItem {
+    float: left;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.SecContent p {
+    width: 64%;
+    margin: auto;
+    font-size: 18px;
+    margin-bottom: 29px;
+}
+
 .header {
-    margin-top: 32px;
+    /* margin-top: 32px; */
     margin-left: 5%;
     background: transparent;
+    margin-left: 10%;
 }
 
 .header ul {
@@ -21,6 +61,7 @@
 .header h2 {
     display: inline-block;
     font-size: 35px;
+    padding-top: 32px;
 }
 
 .header li {
@@ -66,7 +107,7 @@
 }
 
 .aboutMe h2 {
-    margin-top: 205px;
+    margin-top: 202px;
     font-size: 40px;
 }
 
@@ -74,10 +115,16 @@
     background-image: url(images/developer.png);
     background-repeat: no-repeat;
     background-position: left;
+
+    margin-top: 0;
+}
+
+.headBody {
+    background: #ff63470d;
 }
 
 .aboutMe h1 {
-    font-size: 72px;
+    font-size: 70px;
     display: inline;
 }
 
@@ -90,4 +137,35 @@
     border-radius: 9px;
     font-size: 25px;
     line-height: 5;
+}
+
+.SecContent {
+    width: 80%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 100px;
+    margin: 150px auto;
+    background: #eb71130d;
+}
+
+.contactSec {
+    margin: auto;
+    width: 70%;
+}
+
+.SecContent h2 {
+    font-size: 35px;
+    padding: 0px 0 32px 0;
+}
+
+.SecContent2 {
+    width: 80%;
+    border-radius: 15px;
+    padding: 100px;
+    margin: 150px auto;
+}
+
+.SecContent2 h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
 }
